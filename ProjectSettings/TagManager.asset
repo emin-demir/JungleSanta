@@ -44,9 +44,9 @@ TagManager:
   - name: Way
     uniqueID: 121674295
     locked: 0
-  - name: Tree
-    uniqueID: 1082589297
-    locked: 0
   - name: Player
     uniqueID: 1767202793
+    locked: 0
+  - name: Tree
+    uniqueID: 1082589297
     locked: 0
