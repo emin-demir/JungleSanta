@@ -13,6 +13,8 @@ public class Slot_Item : MonoBehaviour, IPointerEnterHandler,IPointerExitHandler
 
     HouseSelect houseSelect;
 
+    public List<GameObject> effectPoul;
+
   
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -31,7 +33,17 @@ public class Slot_Item : MonoBehaviour, IPointerEnterHandler,IPointerExitHandler
         Debug.Log(ItemTable.ItemAdi + " İsimli Item Kullanıldı" + " House"+houseSelect.house);
         if(houseSelect.house == int.Parse(ItemTable.ItemAdi))
         {
+            for (int i = 0; i < effectPoul.Count; i++)
+            {
+                if(!effectPoul[i].activeInHierarchy)
+                {
+                    effectPoul[i].gameObject.SetActive(true);
+                    break;
+                }
+            }
             Destroy(gameObject);
+            // StartCoroutine(deneme());
+            // StopAllCoroutines(deneme());
         }
     }
     public void Item_Remove()
@@ -53,4 +65,12 @@ public class Slot_Item : MonoBehaviour, IPointerEnterHandler,IPointerExitHandler
        houseSelect = GameObject.Find(ItemTable.ItemAdi).GetComponent<HouseSelect>();
         
     }
+
+    // IEnumerator deneme()
+    // {
+    //     //Obje Aktifleşti 
+    //     yield return new WaitForEndOfFrame();
+    //     //Effect oynatıldı
+    //     yield return new WaitForSeconds(0.3f);
+    // }
 }
