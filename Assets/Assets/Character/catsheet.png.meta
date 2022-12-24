@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 078d443f38b854a4399a239c705593d0
+guid: 94eed1bc55a9ca3498c81c689bfb08cd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,12 +128,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ethanrunupsheet_0
+      name: catsheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 24
+        width: 26
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -142,19 +142,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa1bb876cae9cdf4987f396b44ba90f0
-      internalID: 271558982
+      spriteID: bac5343956ff14d40a83dee899cee7b2
+      internalID: -692789405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ethanrunupsheet_1
+      name: catsheet_1
       rect:
         serializedVersion: 2
-        x: 24
+        x: 26
         y: 0
-        width: 24
+        width: 26
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -163,19 +163,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c10f8a5fada6854db72f67e5d0fd52e
-      internalID: 1300251066
+      spriteID: 3a284e4fb9fac7b4fb89505dde41dabb
+      internalID: -1996744550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ethanrunupsheet_2
+      name: catsheet_2
       rect:
         serializedVersion: 2
-        x: 48
+        x: 52
         y: 0
-        width: 24
+        width: 26
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -184,19 +184,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e3df0a4cae4aa84ab90659a8e1339aa
-      internalID: 979012963
+      spriteID: 325d9cc3a61a8434c9c0fac4d41a4826
+      internalID: 1744017308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ethanrunupsheet_3
+      name: catsheet_3
       rect:
         serializedVersion: 2
-        x: 72
+        x: 78
         y: 0
-        width: 24
+        width: 26
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -205,19 +205,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7e60de2f35c1a24a9790e860eb009fb
-      internalID: -1869101134
+      spriteID: 68307b33caa5c514796967f4290117cf
+      internalID: -369575269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ethanrunupsheet_4
+      name: catsheet_4
       rect:
         serializedVersion: 2
-        x: 96
+        x: 104
         y: 0
-        width: 24
+        width: 26
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -226,8 +226,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bd1f41e6666cec45b56e89827f59885
-      internalID: -2021947427
+      spriteID: d1e894df79844974a88a8cbad13ba215
+      internalID: 293047409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catsheet_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca5301dff4a9ef4ab32f7f3b50d4cd0
+      internalID: 1606311543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catsheet_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df230b6ec13146045bd4a9ed92b25aca
+      internalID: -886119667
       vertices: []
       indices: 
       edges: []
@@ -243,11 +285,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ethanrunupsheet_0: 271558982
-      ethanrunupsheet_3: -1869101134
-      ethanrunupsheet_1: 1300251066
-      ethanrunupsheet_4: -2021947427
-      ethanrunupsheet_2: 979012963
+      catsheet_0: -692789405
+      catsheet_5: 1606311543
+      catsheet_2: 1744017308
+      catsheet_4: 293047409
+      catsheet_1: -1996744550
+      catsheet_3: -369575269
+      catsheet_6: -886119667
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

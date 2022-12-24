@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 078d443f38b854a4399a239c705593d0
+guid: b665272ed96b40f4bbca9d3167544865
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ethanrunupsheet_0
+      name: Sprite-0001-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 24
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa1bb876cae9cdf4987f396b44ba90f0
-      internalID: 271558982
+      spriteID: 92b47be34bd239f48b2b992c85f00182
+      internalID: -1718779831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ethanrunupsheet_1
+      name: Sprite-0001-Sheet_1
       rect:
         serializedVersion: 2
-        x: 24
+        x: 32
         y: 0
-        width: 24
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,71 +163,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c10f8a5fada6854db72f67e5d0fd52e
-      internalID: 1300251066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ethanrunupsheet_2
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e3df0a4cae4aa84ab90659a8e1339aa
-      internalID: 979012963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ethanrunupsheet_3
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7e60de2f35c1a24a9790e860eb009fb
-      internalID: -1869101134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ethanrunupsheet_4
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0bd1f41e6666cec45b56e89827f59885
-      internalID: -2021947427
+      spriteID: b9b17b089b54dfc49992d08c2156857e
+      internalID: -648233639
       vertices: []
       indices: 
       edges: []
@@ -243,11 +180,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ethanrunupsheet_0: 271558982
-      ethanrunupsheet_3: -1869101134
-      ethanrunupsheet_1: 1300251066
-      ethanrunupsheet_4: -2021947427
-      ethanrunupsheet_2: 979012963
+      Sprite-0001-Sheet_0: -1718779831
+      Sprite-0001-Sheet_1: -648233639
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
