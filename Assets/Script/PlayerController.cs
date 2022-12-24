@@ -15,19 +15,25 @@ public class PlayerController : MonoBehaviour
 
     Vector2 movement;
 
+    public Envanter envanter;
+
     // Update is called once per frame
     void Update()
     {
+         if(envanter.gameUpdate == true){
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
         animator.SetFloat("Horizontal", Mathf.Lerp(movement.x,1,0.3f));
         animator.SetFloat("Vertical", Mathf.Lerp(movement.y,1,0.3f));
         animator.SetFloat("Speed", movement.sqrMagnitude);
+       }
     }
     void FixedUpdate()
     {
+        if(envanter.gameUpdate == true){
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+         }
     }
 
 

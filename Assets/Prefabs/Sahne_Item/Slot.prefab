@@ -120,7 +120,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &611423046135060870
 CanvasRenderer:
@@ -232,6 +232,7 @@ MonoBehaviour:
   Ana_icon: {fileID: 5210145489609636783}
   Aciklama_canvas: {fileID: 5082174250873658701}
   Aciklama: {fileID: 7766286692924525551}
+  houseSelect: {fileID: 0}
 --- !u!1 &5082174250873658701
 GameObject:
   m_ObjectHideFlags: 0

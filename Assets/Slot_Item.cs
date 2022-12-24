@@ -11,6 +11,9 @@ public class Slot_Item : MonoBehaviour, IPointerEnterHandler,IPointerExitHandler
     public GameObject Aciklama_canvas;
     public Text Aciklama;
 
+    HouseSelect houseSelect;
+
+  
     public void OnPointerEnter(PointerEventData eventData)
     {
        Aciklama_canvas.SetActive(true);
@@ -20,13 +23,16 @@ public class Slot_Item : MonoBehaviour, IPointerEnterHandler,IPointerExitHandler
     void IPointerExitHandler.OnPointerExit(PointerEventData eventData)
     {
        Aciklama_canvas.SetActive(false);
-
     }
 
 
     public void Item_Use()
     {
-        Debug.Log(ItemTable.ItemAdi + " İsimli Item Kullanıldı");
+        Debug.Log(ItemTable.ItemAdi + " İsimli Item Kullanıldı" + " House"+houseSelect.house);
+        if(houseSelect.house == int.Parse(ItemTable.ItemAdi))
+        {
+            Destroy(gameObject);
+        }
     }
     public void Item_Remove()
     {
@@ -44,6 +50,7 @@ public class Slot_Item : MonoBehaviour, IPointerEnterHandler,IPointerExitHandler
 
     void Update()
     {
+       houseSelect = GameObject.Find(ItemTable.ItemAdi).GetComponent<HouseSelect>();
         
     }
 }
